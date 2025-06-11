@@ -8,7 +8,7 @@ let model = null; // Variabel untuk menyimpan model TensorFlow.js
 
 // API Base URL - Sesuaikan jika server Express berjalan di port/host lain
 // Pastikan ini sesuai dengan port yang Anda gunakan di server/app.js (default 3000)
-const API_BASE_URL = "http://localhost:3000/api";
+const API_BASE_URL = "http://localhost:8080/api";
 
 // Definisi Kategori BMI
 const bmiCategories = [
